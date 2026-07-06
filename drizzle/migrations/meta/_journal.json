@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1780929176740,
+      "tag": "0000_fine_madelyne_pryor",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1780934947183,
+      "tag": "0001_acoustic_raza",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1780935434426,
+      "tag": "0002_green_christian_walker",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1781001193656,
+      "tag": "0003_abnormal_wendell_rand",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1781194555825,
+      "tag": "0004_fantastic_thunderbolt",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1781706766434,
+      "tag": "0005_opposite_killraven",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1781712486918,
+      "tag": "0006_organic_black_cat",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1782296872817,
+      "tag": "0007_cheerful_karma",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1782378551921,
+      "tag": "0008_polite_maelstrom",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1782402112488,
+      "tag": "0009_sparkling_odin",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1783075195779,
+      "tag": "0010_cynical_doctor_spectrum",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1783159081337,
+      "tag": "0011_skinny_dormammu",
+      "breakpoints": true
+    }
+  ]
+}

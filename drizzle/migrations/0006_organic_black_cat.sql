@@ -1,0 +1,1 @@
+ALTER TABLE `product` MODIFY COLUMN `category` enum('clothing','mobile','sports') NOT NULL;
