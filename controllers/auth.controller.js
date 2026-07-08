@@ -92,10 +92,10 @@ export const checkLogin=async(req,res)=>{
   //success
  const token=await createSession(user,req)
 
- res.cookie("session", token, {
+res.cookie("session", token, {
   httpOnly: true,
-  sameSite: "lax",
-  secure: false,
+  secure: process.env.NODE_ENV === "production",
+  sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
   maxAge: 1000 * 60 * 60 * 24,
 });
   

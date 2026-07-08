@@ -9,7 +9,8 @@ app.use(cors({
   origin:
   [
    "http://localhost:3000",
-  "https://mystores.vercel.app"
+   "http://192.168.18.67:3000",
+    process.env.CLIENT_URL,
   ] ,
   credentials: true
 }));
