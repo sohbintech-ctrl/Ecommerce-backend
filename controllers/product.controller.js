@@ -10,8 +10,7 @@ export const addProduct = async (req, res) => {
   try {
     const { product, SKU, category, stock, price, discount } = req.body;
 
-    const image = req.file ? req.file.filename : null;
-
+   const image = req.file ? req.file.path : null;
     const stockNumber = Number(stock);
 
     let status = "";
@@ -109,20 +108,6 @@ export const deleteProduct = async (req, res) => {
       });
     }
   
-   const imagePath = path.join(
-   process.cwd(),
-  "uploads",
-  existingProduct[0].image
-);
-
- // console.log(imagePath);
-
- try {
-  await fs.unlink(imagePath);
-  //console.log("Image deleted successfully");
-} catch (err) {
-  console.log("Image delete error:", err);
-}
 
 await db.delete(products).where(eq(products.id, Number(id)));
 
